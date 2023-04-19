@@ -6,8 +6,8 @@ class Menu {
     private double[] precios;
     
     public Menu() {
-        platillos = new String[]{"Hamburguesa", "Pizza", "Ensalada", "Sopa", "Pasta","Hotcakes","Refresco","Malteada","Cafe"};
-        precios = new double[]{30.0, 60.0, 15.00, 16.0, 23.0,25.0,15.0,17.0,10.0};
+        platillos = new String[]{"Hamburguesa", "Pizza", "Ensalada", "Sopa", "Pasta","Hotcakes","Refresco","Malteada","Cafe","Torta","Pizza","Frappe"};
+        precios = new double[]{30.0, 60.0, 15.00, 16.0, 23.0,25.0,15.0,17.0,10.0,50.0,20.0,45.0};
     }
     
     public String[] getPlatillos() {
