@@ -25,7 +25,7 @@ class Pedido {
     
     public void mostrarPedido() {
         double total = 0.0;
-        System.out.println("=== PEDIDO ===");
+        System.out.println("==== PEDIDO ====");
         for (int i = 0; i < platillos.length; i++) {
             if (platillos[i] != null) {
                 double precio = Menu.getPrecio(platillos[i]);
