@@ -24,7 +24,7 @@ class Almacen {
         Arrays.sort(productos, Comparator.comparing(Producto::getFechaCaducidad));
     }
 
-    public void mostrarProductos() {
+    public void mostarProductos() {
         System.out.println("=== PRODUCTOS ===");
         for (Producto producto : productos) {
             System.out.println(producto.getNombre() + " - " + "Caducidad: "+producto.getFechaCaducidad() + " - " + "Cantidad: "+producto.getCantidad());
